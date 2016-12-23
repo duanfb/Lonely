@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="dia_stu">
+        <item>高中生</item>
+        <item>本科生</item>
+        <item>研究生</item>
+    </string-array>
+    <string-array name="sharelay_time">
+		<item>1分钟</item>
+		<item>1小时</item>
+		<item>2小时</item>
+		<item>4小时</item>
+		<item>9小时</item>
+		<item>12小时</item>
+	</string-array>
+    <string-array name="sharelay_value">
+		<item>1</item>
+		<item>60</item>
+		<item>120</item>
+		<item>240</item>
+		<item>540</item>
+		<item>720</item>
+	</string-array>
+    <string-array name="spin_city">
+	    <item>北京</item>
+	    <item>上海</item>
+	    <item>香港</item>
+	    <item>广州</item>
+	    <item>深圳</item>
+	    <item>南京</item>
+	    <item>四川</item>
+	    <item>武汉</item>
+	</string-array>
+    <string-array name="spin_color">
+	    <item>粉色</item>
+	    <item>红色</item>
+	    <item>蓝色</item>
+	    <item>绿色</item>
+	    <item>红色</item>
+	</string-array>
+    <string-array name="spin_prvi">
+        <item>湖北省</item>
+        <item>广东省</item>
+        <item>北京市</item>
+        <item>上海市</item>
+    </string-array>
+    <color name="gray">#33000000</color>
+    <color name="txt_baidu">#FFFF0000</color>
+    <declare-styleable name="SettingView"><attr format="string" name="title"/><attr format="string" name="desc_on"/><attr format="string" name="desc_off"/></declare-styleable>
+    <declare-styleable name="lkpic_gal"><attr name="android:galleryItemBackground"/></declare-styleable>
+    <drawable name="activitys">#FFCCFF</drawable>
+    <string name="abs_msg">绝对布局从Android 2.2后被废弃</string>
+    <string name="ajax_down">下 载</string>
+    <string name="ajchk_enter">登 录</string>
+    <string name="ajchk_pwd">密码</string>
+    <string name="ajchk_user">用户名</string>
+    <string name="anima_bjdh">布局动画</string>
+    <string name="anima_drdc">淡入淡出</string>
+    <string name="anima_hhdh">混合动画</string>
+    <string name="anima_item1">动画一</string>
+    <string name="anima_item2">动画二</string>
+    <string name="anima_item3">动画三</string>
+    <string name="anima_item4">动画四</string>
+    <string name="anima_item5">动画五</string>
+    <string name="anima_lxdh">连续动画</string>
+    <string name="anima_sctp">删除图片</string>
+    <string name="anima_sfxg">缩放效果</string>
+    <string name="anima_tjtp">添加图片</string>
+    <string name="anima_xzxg">旋转效果</string>
+    <string name="anima_ydxg">移动效果</string>
+    <string name="apache_comx">POST封装请求</string>
+    <string name="apache_cookie">获取Cookie</string>
+    <string name="apache_entity">实体参数</string>
+    <string name="apache_ip">获取手机IP</string>
+    <string name="apache_ja">请求返回JSON数组</string>
+    <string name="apache_json">请求返回JSON</string>
+    <string name="apache_servlet">基于Servlet</string>
+    <string name="apache_simp">GET简单请求</string>
+    <string name="apache_struts">基于Struts2</string>
+    <string name="apk_install">安装APK</string>
+    <string name="apk_uninstall">卸载APK</string>
+    <string name="app_habout">关于android汇总</string>
+    <string name="app_htcont">
+***开发者:上而求索\n
+***手机号:13669032128\n
+***腾讯QQ:1138789752\n
+***新浪邮箱:1138789752lmc@sina.com\n
+***CSDN博客:http://blog.csdn.net/lmc1138789752/\n
+***搜索引擎中输入关键字“安卓宝典”或“lmc1138789752 csdn博客”进行搜索，可进入下载网站下载最新apk安装包、下载最新源代码及访问开发者博客
+	</string>
+    <string name="app_htip">联系开发者</string>
+    <string name="app_htitle">赞助开发者</string>
+    <string name="app_hzcont">
+***支付宝账户:1138789752lmc@sina.com\n
+***农行网银账户:6228481621240744914\n
+***敬请赞助开发者!
+	</string>
+    <string name="app_mbase">基本组件</string>
+    <string name="app_mcopy">上而求索 版权所有</string>
+    <string name="app_mdb">数据库</string>
+    <string name="app_mfile">文件操作</string>
+    <string name="app_mhttp">网络</string>
+    <string name="app_mlay">视图布局</string>
+    <string name="app_msys">系统服务</string>
+    <string name="app_mthread">多线程与跳转</string>
+    <string name="app_name">安卓宝典</string>
+    <string name="app_odesc">
+android汇总是一款用于学习安卓应用开发的优秀应用，具有使用简单、结构明晰、综合、易于学习与研究、免费与开源的特点。欢迎你使用!\n
+如果你觉得安卓宝典对你的学习与工作上有一定的作用，敬请赞助为之付出努力的开发者。若有你们热心的赞助与支持，开发者会更有信心与条件不断地对安卓宝典这款应用进行升级与更新，并为你提供安卓应用开发等方面的技术支持与技术探讨。\n
+谢谢你的关注与支持!\n\n
+***应用名:android汇总\n
+***应用当前版本号:v2.3\n
+***支持系统:安卓系统v2.3以上\n
+***发布时间:2013/3/3\n
+***介绍说明:http://blog.csdn.net/lmc1138789752/article/details/8567897\n
+***各版本APK安装包下载地址:http://blog.csdn.net/lmc1138789752/article/details/8567897\n
+***各版本源代码下载地址:http://blog.csdn.net/lmc1138789752/article/details/8567897\n
+***敬请赞助开发者!
+	</string>
+    <string name="app_ohelp">赞助</string>
+    <string name="app_oset">设置</string>
+    <string name="app_whello">欢迎你</string>
+    <string name="base_animation">Animation</string>
+    <string name="base_button">Button</string>
+    <string name="base_checkbox">CheckBox</string>
+    <string name="base_clock">Clock</string>
+    <string name="base_color">Color</string>
+    <string name="base_dialog">Dialog</string>
+    <string name="base_edittext">EditText</string>
+    <string name="base_galley">Gallery</string>
+    <string name="base_gridview">GridView</string>
+    <string name="base_listview">ListView</string>
+    <string name="base_menu">Menu</string>
+    <string name="base_popup">Popup</string>
+    <string name="base_radio">Radio</string>
+    <string name="base_seekbar">SeekBar</string>
+    <string name="base_spinner">Spinner</string>
+    <string name="base_tabhost">TabHost</string>
+    <string name="base_textview">TextView</string>
+    <string name="base_touch">Touch</string>
+    <string name="base_view">View</string>
+    <string name="base_widget">Widget</string>
+    <string name="bdcast_bd">广播一下</string>
+    <string name="bdcast_set">注册广播</string>
+    <string name="bdcast_unset">取消注册</string>
+    <string name="box_bdu">www.baidu.com</string>
+    <string name="box_ev">复选框监听</string>
+    <string name="box_gel">www.google.cn</string>
+    <string name="but_clk">点击</string>
+    <string name="but_focu">焦点</string>
+    <string name="but_img">按钮图文混排</string>
+    <string name="but_key">键盘</string>
+    <string name="but_off">纵向排列</string>
+    <string name="but_on">横向排列</string>
+    <string name="but_round">圆角按钮</string>
+    <string name="but_tou">触屏</string>
+    <string name="chgbg_bg">长按下图设置为系统背景</string>
+    <string name="clock_again">复位</string>
+    <string name="clock_cal">万年历</string>
+    <string name="clock_dia">日期对话框</string>
+    <string name="clock_format">格式化</string>
+    <string name="clock_please">选择日期</string>
+    <string name="clock_start">开始</string>
+    <string name="clock_startt">开始时间</string>
+    <string name="clock_stop">停止</string>
+    <string name="clock_stopt">结束时间</string>
+    <string name="comm_cancel">取消</string>
+    <string name="comm_confirm">确定</string>
+    <string name="comm_image">图片描述</string>
+    <string name="comm_please">请选择</string>
+    <string name="comm_submit">提交</string>
+    <string name="comx_jh">计划</string>
+    <string name="comx_name">开发者:上而求索</string>
+    <string name="comx_phone">联系电话:13669032128</string>
+    <string name="comx_qq">QQ:1138789752</string>
+    <string name="comx_tj">提交</string>
+    <string name="comx_yf">已发</string>
+    <string name="comx_zh">帐号</string>
+    <string name="data_cm">采用剪切板传参</string>
+    <string name="data_cmret">向剪切板中写入对象并返回</string>
+    <string name="db_par">继承实现</string>
+    <string name="db_sqli">SQLite</string>
+    <string name="dia_chg">修改状态</string>
+    <string name="dia_chgres">当前状态:在线</string>
+    <string name="dia_cus">自定义</string>
+    <string name="dia_date">日期对话框</string>
+    <string name="dia_itme1">在线</string>
+    <string name="dia_itme2">离线</string>
+    <string name="dia_itme3">隐身</string>
+    <string name="dia_mchs">多选对话框</string>
+    <string name="dia_mstd">多级对话框</string>
+    <string name="dia_pwd">Password</string>
+    <string name="dia_schs">单选对话框</string>
+    <string name="dia_tiao">条形进度条</string>
+    <string name="dia_time">时间对话框</string>
+    <string name="dia_toastcus">自定义Toast</string>
+    <string name="dia_toastset">Toast设置</string>
+    <string name="dia_user">Username</string>
+    <string name="dia_yuan">圆形进度条</string>
+    <string name="edit_add">添加表情</string>
+    <string name="edit_blank">单击清空</string>
+    <string name="edit_dig">只能输入0123456</string>
+    <string name="edit_disable">不可编辑</string>
+    <string name="edit_eml">输入Email</string>
+    <string name="edit_focus">配置聚焦</string>
+    <string name="edit_focused">是否聚焦</string>
+    <string name="edit_money">金额：</string>
+    <string name="edit_mutil">多行文本域</string>
+    <string name="edit_pwd">单击显藏密码</string>
+    <string name="edit_tipc">颜色提醒文字</string>
+    <string name="fil_create">创建应用文件</string>
+    <string name="fil_read">读取应用文件</string>
+    <string name="file_fil">应用文件</string>
+    <string name="file_json">JSON</string>
+    <string name="file_lok">浏览文件</string>
+    <string name="file_mus">MP3播放</string>
+    <string name="file_oper">文件操作</string>
+    <string name="file_prop">属性文件</string>
+    <string name="file_raw">RAW</string>
+    <string name="file_sd">本地文件</string>
+    <string name="file_share">共享文件</string>
+    <string name="file_sharelay">共享布局</string>
+    <string name="file_xml">XML</string>
+    <string name="fjxc_end">结束</string>
+    <string name="fjxc_start">开始</string>
+    <string name="gal_item1">Galley一</string>
+    <string name="gal_item2">Galley二</string>
+    <string name="gal_item3">Galley三</string>
+    <string name="gal_item4">Galley四</string>
+    <string name="gal_item5">Galley五</string>
+    <string name="gal_item6">Galley六</string>
+    <string name="gal_item7">Galley七</string>
+    <string name="gal_item8">Galley八</string>
+    <string name="gal_tip">点击图片选定/取消</string>
+    <string name="hsqp_msg">当前为竖屏</string>
+    <string name="hsqp_qp">切屏</string>
+    <string name="http_apache">Apache</string>
+    <string name="http_net">Net接口</string>
+    <string name="http_updown">上传下载</string>
+    <string name="json_comx">复杂创建JSON</string>
+    <string name="json_prase">解析JSON数组</string>
+    <string name="json_simp">简单创建JSON</string>
+    <string name="jump_dia">对话框跳转</string>
+    <string name="jump_diaret">对话框跳转返回</string>
+    <string name="jump_doub">双向跳转</string>
+    <string name="jump_return">双向跳转返回</string>
+    <string name="jump_sing">单选跳转</string>
+    <string name="lay_abs">绝对布局</string>
+    <string name="lay_comx">复杂布局</string>
+    <string name="lay_frame">框架布局</string>
+    <string name="lay_line">线性布局</string>
+    <string name="lay_relat">相对布局</string>
+    <string name="lay_tab">表格布局</string>
+    <string name="line_loc">水平位置设置</string>
+    <string name="line_wei">权重设置</string>
+    <string name="list_1msg">点击列表项试试</string>
+    <string name="list_1title">关于我</string>
+    <string name="list_2title">畅销书列表</string>
+    <string name="list_item1">ListView一</string>
+    <string name="list_item2">ListView二</string>
+    <string name="list_item3">ListView三</string>
+    <string name="list_item4">ListView四</string>
+    <string name="list_item5">ListView五</string>
+    <string name="list_item6">ListView六</string>
+    <string name="list_item7">ListView七</string>
+    <string name="lok_no">无数据</string>
+    <string name="men_tip">按菜单键或PageUp</string>
+    <string name="mgr_msg">
+安卓宝典包含了近百个Activity类/界面,性能管理和优化甚是麻烦，修改调试很久了，由此性能管理就以本应用举例说明，若有不足，敬请谅解。\n\n
+安卓宝典采用默认模式(也即线性结构)和树状模式两种首页展示方式实现功能界面管理，可在设置菜单进行设置。由于lmc.lonely.Mian(默认模式首页)，
+lmc.lonely.file.FProp(设置/属性文件)，lmc.lonely.base.BListView0和lmc.lonely.base.BListView6(树状模式首页)
+四个Activity类相互间跳转等操作会消耗过多的资源外，其他Activity类因无退出应用操作而只能返回到默认模式首页中以退出应用，这样就利用了安卓应用
+生命周期而完成性能管理和优化。\n\n
+Mian，FProp，BListView0和BListView6这四个了由继承了android.app.Application的lmc.lonely.AppMgr(需在AndroidManifest.xml
+中配置AppMgr类)进行管理。当通过Mian和BListView6跳转到FProp完成应用设置后，FProp会执行AppMgr.finish()并重启应用。当以Mian->
+BListView0->BListView6顺序进入到树状模式首页，并点击该界面中“返回默认模式”时，BListView6类中执行AppMgr.finish()并跳转到默认模式首页。\n\n
+以下日志截图
+    </string>
+    <string name="mus_end">结束</string>
+    <string name="mus_pause">暂停</string>
+    <string name="mus_start">播放</string>
+    <string name="myview">自定义控件 </string>
+    <string name="myview_rollText">我是一个TextView,我本来不可以滚动的，但是我可以欺骗系统，从而达到了我滚动的目的。。啊啊啊啊啊.哈哈哈</string>
+    <string name="myview_rollTextView">滚动TextView</string>
+    <string name="myview_toggle">滑动开关</string>
+    <string name="myview_viewPager">ViewPager</string>
+    <string name="myview_zuheview">组合控件</string>
+    <string name="other_gps">gps定位</string>
+    <string name="other_logRecord">日志记录</string>
+    <string name="other_logger">日志开关</string>
+    <string name="other_textView">其他</string>
+    <string name="par_createdb">创建数据库</string>
+    <string name="par_insert">增加记录</string>
+    <string name="par_select">查询记录</string>
+    <string name="par_update">更新记录</string>
+    <string name="par_updatedb">版本更新数据库</string>
+    <string name="popup_buttom">底部</string>
+    <string name="popup_hide">隐藏</string>
+    <string name="popup_top">顶部</string>
+    <string name="prop_bg">背景色</string>
+    <string name="prop_bgtip">单击此处设置背景色</string>
+    <string name="prop_home">应用目录</string>
+    <string name="prop_mdef">默认模式</string>
+    <string name="prop_mtree">树状模式</string>
+    <string name="prop_show">是否显示欢迎对话框</string>
+    <string name="prop_url">连接后台</string>
+    <string name="radio_cus">自定义</string>
+    <string name="radio_nan">男</string>
+    <string name="radio_no">无圆点</string>
+    <string name="radio_nv">女</string>
+    <string name="radio_res">默认选中:女</string>
+    <string name="raw_read">读取RAW文件</string>
+    <string name="relat_center">居中按钮</string>
+    <string name="relat_rb">右下按钮</string>
+    <string name="relat_rbut">右下位置</string>
+    <string name="sd_create">创建本地文件</string>
+    <string name="sd_read">读取本地文件</string>
+    <string name="serv_end">停止服务</string>
+    <string name="serv_start">启动服务</string>
+    <string name="share_create">创建共享文件</string>
+    <string name="share_read">读取共享文件</string>
+    <string name="sqli_count">数据记录总数</string>
+    <string name="sqli_ctable">创建表</string>
+    <string name="sqli_detele">删除数据</string>
+    <string name="sqli_dtable">删除表</string>
+    <string name="sqli_insert">插入数据</string>
+    <string name="sqli_maxid">最大索引</string>
+    <string name="sqli_queall">查询所有</string>
+    <string name="sqli_query">查询数据</string>
+    <string name="sqli_update">更新数据</string>
+    <string name="sys_apk">安装卸载</string>
+    <string name="sys_bdcast">广播机制</string>
+    <string name="sys_chgbg">更改背景</string>
+    <string name="sys_hsqp">横竖切屏</string>
+    <string name="sys_serv">应用服务</string>
+    <string name="sys_xtcx">系统程序</string>
+    <string name="tab_ss">收缩居中</string>
+    <string name="tab_szh">伸展居中</string>
+    <string name="tab_yc">隐藏列</string>
+    <string name="tabh_bd">百度一下</string>
+    <string name="tabh_cb1">篮球</string>
+    <string name="tabh_cb2">足球</string>
+    <string name="tabh_cb3">网球</string>
+    <string name="tabh_cb4">排球</string>
+    <string name="tabh_cb5">游泳(自由泳,蛙泳,仰泳)</string>
+    <string name="tabh_cb6">潜水(深海,湖泊)</string>
+    <string name="tabh_cb7">划船(竹筏,木船,汽艇)</string>
+    <string name="tabh_cb8">滑冰(速滑,花样)</string>
+    <string name="tabh_item1">TabHost一</string>
+    <string name="tabh_item2">TabHost二</string>
+    <string name="tabh_item3">TabHost三</string>
+    <string name="tabh_nan">男</string>
+    <string name="tabh_nv">女</string>
+    <string name="thread_ajax">异步下载</string>
+    <string name="thread_ajchk">异步验证</string>
+    <string name="thread_ball">滚动小球</string>
+    <string name="thread_data">数据共享</string>
+    <string name="thread_fjxc">附加线程</string>
+    <string name="thread_jump">程序跳转</string>
+    <string name="thread_mgr">性能管理</string>
+    <string name="thread_nhd">霓虹灯</string>
+    <string name="touch_msg">点击屏幕试试</string>
+    <string name="txt_auto">单个填充</string>
+    <string name="txt_autotip">输入ab自动填充</string>
+    <string name="txt_baidu"><a href="http:www.baidu.com">www.baidu.com</a></string>
+    <string name="txt_call"><a href="tel:13669032128">联系我</a></string>
+    <string name="txt_format">文本格式转换</string>
+    <string name="txt_imgbg">图片背景文字居中</string>
+    <string name="txt_mauto">多个填充</string>
+    <string name="txt_run">跑马灯特效:路漫漫其修远兮,吾将上下而求索 上而求索 QQ:1138789752</string>
+    <string name="txt_split">截断字符串:吾将上下而求索</string>
+    <string name="txt_style">使用样式</string>
+    <string name="txt_zoomres">文字缩放</string>
+    <string name="updown_down">下载图片</string>
+    <string name="updown_upimg">上传图片</string>
+    <string name="xml_dcreate">Dom创建</string>
+    <string name="xml_dread">Dom解析</string>
+    <string name="xml_dread2">Dom解析</string>
+    <string name="xml_msg">XML创建与解析</string>
+    <string name="xml_pullread">Pull解析</string>
+    <string name="xml_saxread">Sax解析</string>
+    <string name="xtcx_bd">百度一下</string>
+    <string name="xtcx_cx">发送彩信</string>
+    <string name="xtcx_dx">发送短信</string>
+    <string name="xtcx_jjbh">间接拨号</string>
+    <string name="xtcx_tpll">图片浏览</string>
+    <string name="xtcx_yjmul">多附件发送邮件</string>
+    <string name="xtcx_yjno">无附件发送邮件</string>
+    <string name="xtcx_yjyes">有附件发送邮件</string>
+    <string name="xtcx_zjbh">直接拨号</string>
+    <style name="Theme.AccountDialog" parent="android:style/Theme.Dialog">
+    	<item name="android:windowBackground">@drawable/icob_clock</item>
+	</style>
+    <style name="activitys">
+        <item name="android:background">#FFCCFF</item>
+    </style>
+    <style name="apptheme" parent="android:Theme.Light"/>
+    <style name="buttons">
+	    <item name="android:layout_width">80dp</item>
+	    <item name="android:layout_height">wrap_content</item>
+	    <item name="android:textSize">11sp</item>
+	    <item name="android:textColor">#3CB371</item>
+	</style>
+    <style name="hcont">
+	    <item name="android:layout_width">fill_parent</item>
+	    <item name="android:layout_height">wrap_content</item>
+	    <item name="android:textSize">11sp</item>
+	    <item name="android:textColor">#3CB371</item>
+	    <item name="android:autoLink">all</item>
+	</style>
+    <style name="imagebuttons">
+	    <item name="android:layout_width">wrap_content</item>
+	    <item name="android:layout_height">wrap_content</item>
+	    <item name="android:layout_gravity">center_horizontal</item>
+	</style>
+    <style name="textviews">
+	    <item name="android:layout_width">fill_parent</item>
+	    <item name="android:layout_height">wrap_content</item>
+	    <item name="android:layout_marginBottom">3dp</item>
+	    <item name="android:paddingTop">2dp</item>
+	    <item name="android:paddingBottom">2dp</item>
+	    <item name="android:paddingLeft">5dp</item>
+	    <item name="android:textSize">12sp</item>
+	    <item name="android:textColor">#00FFFF</item>
+	    <item name="android:background">#999999</item>
+	</style>
+    <style name="txt_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#00FA9A</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>

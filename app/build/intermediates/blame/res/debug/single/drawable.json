@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\home_item_selector.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\drawable\\home_item_selector.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\point_normal.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\drawable\\point_normal.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\point_enable.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\drawable\\point_enable.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\point_background.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\drawable\\point_background.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\safe_selector.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\drawable\\safe_selector.xml"
+    }
+]

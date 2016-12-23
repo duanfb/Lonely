@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/app_laymian"
+        style="@style/activitys"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            style="@style/textviews"
+            android:text="@string/app_mbase" />
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity=""
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/base_txt"
+                style="@style/buttons"
+                android:text="@string/base_textview" />
+
+            <Button
+                android:id="@+id/base_edit"
+                style="@style/buttons"
+                android:text="@string/base_edittext" />
+
+            <Button
+                android:id="@+id/base_but"
+                style="@style/buttons"
+                android:text="@string/base_button" />
+
+            <Button
+                android:id="@+id/base_radio"
+                style="@style/buttons"
+                android:text="@string/base_radio" />
+        </LinearLayout>
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/base_box"
+                style="@style/buttons"
+                android:text="@string/base_checkbox" />
+
+            <Button
+                android:id="@+id/base_dia"
+                style="@style/buttons"
+                android:text="@string/base_dialog" />
+
+            <Button
+                android:id="@+id/base_list"
+                style="@style/buttons"
+                android:text="@string/base_listview" />
+
+            <Button
+                android:id="@+id/base_clock"
+                style="@style/buttons"
+                android:text="@string/base_clock" />
+        </LinearLayout>
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/base_spin"
+                style="@style/buttons"
+                android:text="@string/base_spinner" />
+
+            <Button
+                android:id="@+id/base_bar"
+                style="@style/buttons"
+                android:text="@string/base_seekbar" />
+
+            <Button
+                android:id="@+id/base_tabh"
+                style="@style/buttons"
+                android:text="@string/base_tabhost" />
+
+            <Button
+                android:id="@+id/base_popup"
+                style="@style/buttons"
+                android:text="@string/base_popup" />
+        </LinearLayout>
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/base_men"
+                style="@style/buttons"
+                android:text="@string/base_menu" />
+
+            <Button
+                android:id="@+id/base_gal"
+                style="@style/buttons"
+                android:text="@string/base_galley" />
+
+            <Button
+                android:id="@+id/base_myv"
+                style="@style/buttons"
+                android:text="@string/base_view" />
+
+            <Button
+                android:id="@+id/base_col"
+                style="@style/buttons"
+                android:text="@string/base_color" />
+        </LinearLayout>
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/base_widg"
+                style="@style/buttons"
+                android:text="@string/base_widget" />
+
+            <Button
+                android:id="@+id/base_anima"
+                style="@style/buttons"
+                android:text="@string/base_animation" />
+
+            <Button
+                android:id="@+id/base_touch"
+                style="@style/buttons"
+                android:text="@string/base_touch" />
+            <Button
+                android:id="@+id/base_gridview"
+                style="@style/buttons"
+                android:text="@string/base_gridview" />
+        </LinearLayout>
+
+        
+        
+        
+        
+        
+        
+        
+        <TextView
+            style="@style/textviews"
+            android:text="@string/myview" />
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/base_viewpager"
+                style="@style/buttons"
+                android:text="@string/myview_viewPager" />
+
+            <Button
+                android:id="@+id/base_toggle"
+                style="@style/buttons"
+                android:text="@string/myview_toggle" />
+            <Button
+                android:id="@+id/bt_rollTextView"
+                style="@style/buttons"
+                android:text="@string/myview_rollTextView" />
+            <Button
+                android:id="@+id/bt_zuheview"
+                style="@style/buttons"
+                android:text="@string/myview_zuheview" />
+        </LinearLayout>
+
+        <TextView
+            style="@style/textviews"
+            android:text="@string/app_mlay" />
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/lay_line"
+                style="@style/buttons"
+                android:text="@string/lay_line" />
+
+            <Button
+                android:id="@+id/lay_frame"
+                style="@style/buttons"
+                android:text="@string/lay_frame" />
+
+            <Button
+                android:id="@+id/lay_relat"
+                style="@style/buttons"
+                android:text="@string/lay_relat" />
+
+            <Button
+                android:id="@+id/lay_tab"
+                style="@style/buttons"
+                android:text="@string/lay_tab" />
+        </LinearLayout>
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/lay_abs"
+                style="@style/buttons"
+                android:text="@string/lay_abs" />
+
+            <Button
+                android:id="@+id/lay_comx"
+                style="@style/buttons"
+                android:text="@string/lay_comx" />
+        </LinearLayout>
+
+        <TextView
+            style="@style/textviews"
+            android:text="@string/app_mfile" />
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/file_prop"
+                style="@style/buttons"
+                android:text="@string/file_prop" />
+
+            <Button
+                android:id="@+id/file_share"
+                style="@style/buttons"
+                android:text="@string/file_share" />
+
+            <Button
+                android:id="@+id/file_sharelay"
+                style="@style/buttons"
+                android:text="@string/file_sharelay" />
+
+            <Button
+                android:id="@+id/file_raw"
+                style="@style/buttons"
+                android:text="@string/file_raw" />
+        </LinearLayout>
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/file_fil"
+                style="@style/buttons"
+                android:text="@string/file_fil" />
+
+            <Button
+                android:id="@+id/file_sd"
+                style="@style/buttons"
+                android:text="@string/file_sd" />
+
+            <Button
+                android:id="@+id/file_xml"
+                style="@style/buttons"
+                android:text="@string/file_xml" />
+
+            <Button
+                android:id="@+id/file_json"
+                style="@style/buttons"
+                android:text="@string/file_json" />
+        </LinearLayout>
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/file_lok"
+                style="@style/buttons"
+                android:text="@string/file_lok" />
+
+            <Button
+                android:id="@+id/file_mus"
+                style="@style/buttons"
+                android:text="@string/file_mus" />
+
+            <Button
+                android:id="@+id/file_oper"
+                style="@style/buttons"
+                android:text="@string/file_oper" />
+        </LinearLayout>
+
+        <TextView
+            style="@style/textviews"
+            android:text="@string/app_mdb" />
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/db_sqli"
+                style="@style/buttons"
+                android:text="@string/db_sqli" />
+
+            <Button
+                android:id="@+id/db_par"
+                style="@style/buttons"
+                android:text="@string/db_par" />
+        </LinearLayout>
+
+        <TextView
+            style="@style/textviews"
+            android:text="@string/app_mthread" />
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/thread_data"
+                style="@style/buttons"
+                android:text="@string/thread_data" />
+
+            <Button
+                android:id="@+id/thread_nhd"
+                style="@style/buttons"
+                android:text="@string/thread_nhd" />
+
+            <Button
+                android:id="@+id/thread_ball"
+                style="@style/buttons"
+                android:text="@string/thread_ball" />
+
+            <Button
+                android:id="@+id/thread_ajax"
+                style="@style/buttons"
+                android:text="@string/thread_ajax" />
+        </LinearLayout>
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/thread_ajchk"
+                style="@style/buttons"
+                android:text="@string/thread_ajchk" />
+
+            <Button
+                android:id="@+id/thread_jump"
+                style="@style/buttons"
+                android:text="@string/thread_jump" />
+
+            <Button
+                android:id="@+id/thread_fjxc"
+                style="@style/buttons"
+                android:text="@string/thread_fjxc" />
+
+            <Button
+                android:id="@+id/thread_mgr"
+                style="@style/buttons"
+                android:text="@string/thread_mgr" />
+        </LinearLayout>
+
+        <TextView
+            style="@style/textviews"
+            android:text="@string/app_msys" />
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/sys_chgbg"
+                style="@style/buttons"
+                android:text="@string/sys_chgbg" />
+
+            <Button
+                android:id="@+id/sys_hsqp"
+                style="@style/buttons"
+                android:text="@string/sys_hsqp" />
+
+            <Button
+                android:id="@+id/sys_xtcx"
+                style="@style/buttons"
+                android:text="@string/sys_xtcx" />
+
+            <Button
+                android:id="@+id/sys_apk"
+                style="@style/buttons"
+                android:text="@string/sys_apk" />
+        </LinearLayout>
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/sys_bdcast"
+                style="@style/buttons"
+                android:text="@string/sys_bdcast" />
+
+            <Button
+                android:id="@+id/sys_serv"
+                style="@style/buttons"
+                android:text="@string/sys_serv" />
+        </LinearLayout>
+
+        <TextView
+            style="@style/textviews"
+            android:text="@string/app_mhttp" />
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/http_apache"
+                style="@style/buttons"
+                android:text="@string/http_apache" />
+
+            <Button
+                android:id="@+id/http_updown"
+                style="@style/buttons"
+                android:text="@string/http_updown" />
+
+            <Button
+                android:id="@+id/http_net"
+                style="@style/buttons"
+                android:text="@string/http_net" />
+        </LinearLayout>
+
+        <!-- 其他 -->
+        <TextView
+            style="@style/textviews"
+            android:text="@string/other_textView" />
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/http_logger"
+                style="@style/buttons"
+                android:text="@string/other_logger" />
+
+            <Button
+                style="@style/buttons"
+                android:text="@string/other_logRecord" />
+            <Button
+                android:id="@+id/bt_gps"
+                style="@style/buttons"
+                android:text="@string/other_gps" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/app_mcopy"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal"
+            android:text="@string/app_mcopy"
+            android:textColor="#6633FF"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</ScrollView>

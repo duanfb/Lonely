@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="E:\GithubDemo\Lonely\app\libs"><file name="android-support-v4.jar" path="E:\GithubDemo\Lonely\app\libs\android-support-v4.jar"/><file name="commons-lang3-3.0-beta.jar" path="E:\GithubDemo\Lonely\app\libs\commons-lang3-3.0-beta.jar"/></source></dataSet><dataSet config="debug"><source path="E:\GithubDemo\Lonely\app\build-types\debug\jniLibs"/></dataSet></merger>

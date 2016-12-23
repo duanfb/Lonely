@@ -1,0 +1,442 @@
+[
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\base_gal4.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\base_gal4.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\base_anima2.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\base_anima2.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\thread_data.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\thread_data.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\base_edit.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\base_edit.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\http_apache.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\http_apache.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\base_dialogin.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\base_dialogin.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\base_list2view.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\base_list2view.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\myview_toggle.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\myview_toggle.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\file_fil.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\file_fil.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\db_par.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\db_par.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\base_anima3.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\base_anima3.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\base_men.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\base_men.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lay_comx.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\lay_comx.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sys_bdcast.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\sys_bdcast.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\base_anima5list.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\base_anima5list.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\base_tabh3list.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\base_tabh3list.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\base_touch.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\base_touch.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\myview_zuhe.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\myview_zuhe.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\db_sqli.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\db_sqli.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\http_updown.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\http_updown.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\base_men3.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\base_men3.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sys_xtcx.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\sys_xtcx.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\file_xml.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\file_xml.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\base_gal3.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\base_gal3.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\file_lok.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\file_lok.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\base_gal6.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\base_gal6.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\file_sd.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\file_sd.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\thread_mgr.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\thread_mgr.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\base_gal7.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\base_gal7.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lay_comx1lay.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\lay_comx1lay.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\base_anima5.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\base_anima5.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\http_net.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\http_net.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\base_view.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\base_view.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\thread_nhd.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\thread_nhd.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\base_spin.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\base_spin.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\base_gal.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\base_gal.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\base_gal1.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\base_gal1.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\app_main.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\app_main.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\base_gal4view.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\base_gal4view.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\base_list1view.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\base_list1view.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\base_txt.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\base_txt.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\file_prop.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\file_prop.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\base_but.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\base_but.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\base_list6.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\base_list6.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\file_raw.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\file_raw.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\base_list3.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\base_list3.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\base_radio.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\base_radio.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lay_tab.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\lay_tab.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\base_popup.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\base_popup.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\base_clock.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\base_clock.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\thread_data2.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\thread_data2.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\app_help.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\app_help.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\file_mus.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\file_mus.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\base_widg.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\base_widg.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\thread_jump.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\thread_jump.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_home_item.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\list_home_item.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\base_popupview.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\base_popupview.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\file_share.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\file_share.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\file_lokrows.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\file_lokrows.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\base_tabh1.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\base_tabh1.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\myview_zuhe_view.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\myview_zuhe_view.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lay_comx2lay.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\lay_comx2lay.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\base_tabh.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\base_tabh.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\thread_jump2.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\thread_jump2.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lay_relat.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\lay_relat.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\base_gal7grid.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\base_gal7grid.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\base_list2.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\base_list2.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\base_list5.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\base_list5.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\base_tabh2.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\base_tabh2.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sys_hsqp.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\sys_hsqp.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\base_diapopup.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\base_diapopup.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\base_viewpager.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\base_viewpager.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lay_relat2.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\lay_relat2.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\base_box1view.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\base_box1view.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\base_tabh3.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\base_tabh3.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\base_rolltextview.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\base_rolltextview.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\base_bar.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\base_bar.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\base_col.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\base_col.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\app_wel.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\app_wel.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\base_list7.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\base_list7.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sys_serv.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\sys_serv.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\base_anima3_item.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\base_anima3_item.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\base_gal8.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\base_gal8.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lay_comx3lay.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\lay_comx3lay.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\file_oper.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\file_oper.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\base_men2.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\base_men2.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\base_gridview.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\base_gridview.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\base_list1.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\base_list1.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\base_clockplease.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\base_clockplease.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\base_anima.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\base_anima.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lay_frame2.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\lay_frame2.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sys_apk.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\sys_apk.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sys_chgbg.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\sys_chgbg.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lay_abs.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\lay_abs.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\base_gal5.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\base_gal5.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\base_box2.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\base_box2.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\thread_ajchk.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\thread_ajchk.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lay_line.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\lay_line.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\base_gal2.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\base_gal2.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\thread_fjxc.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\thread_fjxc.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\base_box.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\base_box.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lay_frame.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\lay_frame.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\thread_ajax.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\thread_ajax.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\base_anima4.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\base_anima4.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\base_dia.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\base_dia.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\base_anima1.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\base_anima1.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\thread_jump3.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\thread_jump3.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\app_hello.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\app_hello.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\file_json.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\file_json.xml"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\layout\\base_list.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\layout\\base_list.xml"
+    }
+]

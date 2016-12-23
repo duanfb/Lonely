@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jmi.android.jiemi"
+    android:installLocation="auto"
+    android:versionCode="282"
+    android:versionName="2.8.2" >
+
+    <uses-sdk
+        android:maxSdkVersion="16"
+        android:minSdkVersion="14"
+        android:targetSdkVersion="21" />
+    <!-- 联网 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- 系统震动 -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <!-- 操作SD卡 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <!-- 更改背景 -->
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+    <!-- 横竖切屏 -->
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+    <!-- 直接拨号 -->
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <!-- 安装与卸载apk授权 -->
+    <uses-permission android:name="android.permission.INSTALL_PACKAGES" />
+    <uses-permission android:name="android.permission.DELETE_PACKAGES" />
+    <!-- 操作用户数据授权 -->
+    <uses-permission android:name="android.permission.CLEAR_APP_CACHE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CLEAR_APP_USER_DATA" />
+    <!-- 获取位置权限 -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:name="lmc.lonely.AppMgr"
+        android:icon="@drawable/ico_logo"
+        android:label="@string/app_name"
+        android:theme="@style/apptheme" >
+        <activity
+            android:name="lmc.lonely.Wel"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="lmc.lonely.Main"
+            android:label="@string/app_name" />
+        <activity
+            android:name="lmc.lonely.Help"
+            android:label="@string/app_htitle" />
+
+        <receiver android:name="lmc.lonely.base.BWidget1" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/base_widg" />
+        </receiver>
+        <receiver android:name="lmc.lonely.base.BWidget2" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="lmc.lonely.base.WIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/base_widg" />
+        </receiver>
+        <receiver android:name="lmc.lonely.sys.SysBdcRcver" >
+            <intent-filter>
+                <action android:name="android.intent.action.EDIT" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="lmc.lonely.sys.SysServMgr" >
+        </service>
+        <service android:name="lmc.lonely.service.GpsService" >
+        </service>
+
+        <activity
+            android:name="lmc.lonely.base.BAnimation0"
+            android:label="@string/base_animation" />
+        <activity
+            android:name="lmc.lonely.base.BAnimation1"
+            android:label="@string/base_animation" />
+        <activity
+            android:name="lmc.lonely.base.BAnimation2"
+            android:label="@string/base_animation" />
+        <activity
+            android:name="lmc.lonely.base.BAnimation3"
+            android:label="@string/base_animation" />
+        <activity
+            android:name="lmc.lonely.base.BAnimation4"
+            android:label="@string/base_animation" />
+        <activity
+            android:name="lmc.lonely.base.BAnimation5"
+            android:label="@string/base_animation" />
+        <activity
+            android:name="lmc.lonely.base.BAnimation5List"
+            android:label="@string/base_animation" />
+        <activity
+            android:name="lmc.lonely.base.BButton"
+            android:label="@string/base_button" />
+        <activity
+            android:name="lmc.lonely.base.BCheckBox1"
+            android:label="@string/base_checkbox" />
+        <activity
+            android:name="lmc.lonely.base.BCheckBox2"
+            android:label="@string/base_checkbox" />
+        <activity
+            android:name="lmc.lonely.base.BClock1"
+            android:label="@string/base_clock" />
+        <activity
+            android:name="lmc.lonely.base.BClock2"
+            android:label="@string/base_clock" />
+        <activity
+            android:name="lmc.lonely.base.BClockPlease"
+            android:label="@string/base_clock"
+            android:theme="@style/Theme.AccountDialog" />
+        <activity
+            android:name="lmc.lonely.base.BColor"
+            android:label="@string/base_color" />
+        <activity
+            android:name="lmc.lonely.base.BDialog"
+            android:label="@string/base_dialog" />
+        <activity
+            android:name="lmc.lonely.base.BEditText"
+            android:label="@string/base_edittext" />
+        <activity
+            android:name="lmc.lonely.base.BGalley0"
+            android:label="@string/base_galley" />
+        <activity
+            android:name="lmc.lonely.base.BGalley1"
+            android:label="@string/base_galley" />
+        <activity
+            android:name="lmc.lonely.base.BGalley2"
+            android:label="@string/base_galley" />
+        <activity
+            android:name="lmc.lonely.base.BGalley3"
+            android:label="@string/base_galley" />
+        <activity
+            android:name="lmc.lonely.base.BGalley4"
+            android:label="@string/base_galley" />
+        <activity
+            android:name="lmc.lonely.base.BGalley5"
+            android:label="@string/base_galley" />
+        <activity
+            android:name="lmc.lonely.base.BGalley6"
+            android:label="@string/base_galley" />
+        <activity
+            android:name="lmc.lonely.base.BGalley7"
+            android:label="@string/base_galley" />
+        <activity
+            android:name="lmc.lonely.base.BGalley8"
+            android:label="@string/base_galley" />
+        <activity
+            android:name="lmc.lonely.base.BListView0"
+            android:label="@string/base_listview" />
+        <activity
+            android:name="lmc.lonely.base.BListView1"
+            android:label="@string/base_listview" />
+        <activity
+            android:name="lmc.lonely.base.BListView2"
+            android:label="@string/base_listview" />
+        <activity
+            android:name="lmc.lonely.base.BListView3"
+            android:label="@string/base_listview" />
+        <activity
+            android:name="lmc.lonely.base.BListView4"
+            android:label="@string/base_listview" />
+        <activity
+            android:name="lmc.lonely.base.BListView5"
+            android:label="@string/base_listview" />
+        <activity
+            android:name="lmc.lonely.base.BListView6"
+            android:label="@string/base_listview" />
+        <activity
+            android:name="lmc.lonely.base.BListView7"
+            android:label="@string/base_listview" />
+        <activity
+            android:name="lmc.lonely.base.BMenu1"
+            android:label="@string/base_menu" />
+        <activity
+            android:name="lmc.lonely.base.BMenu2"
+            android:label="@string/base_menu" />
+        <activity
+            android:name="lmc.lonely.base.BMenu3"
+            android:label="@string/base_menu" />
+        <activity
+            android:name="lmc.lonely.base.BPopup"
+            android:label="@string/base_popup" />
+        <activity
+            android:name="lmc.lonely.base.BRadioButton"
+            android:label="@string/base_radio" />
+        <activity
+            android:name="lmc.lonely.base.BSeekBar"
+            android:label="@string/base_seekbar" />
+        <activity
+            android:name="lmc.lonely.base.BSpinner"
+            android:label="@string/base_spinner" />
+        <activity
+            android:name="lmc.lonely.base.BTabHost0"
+            android:label="@string/base_tabhost" />
+        <activity
+            android:name="lmc.lonely.base.BTabHost1"
+            android:label="@string/base_tabhost" />
+        <activity
+            android:name="lmc.lonely.base.BTabHost2"
+            android:label="@string/base_tabhost" />
+        <activity
+            android:name="lmc.lonely.base.BTabHost3"
+            android:label="@string/base_tabhost" />
+        <activity
+            android:name="lmc.lonely.base.BTextView"
+            android:label="@string/base_textview" />
+        <activity
+            android:name="lmc.lonely.base.BTouch"
+            android:label="@string/base_touch" />
+        <activity
+            android:name="lmc.lonely.base.BGridView"
+            android:label="@string/base_gridview" />
+
+        <!-- 自定义控件 -->
+        <activity
+            android:name="lmc.lonely.base.BView"
+            android:label="@string/base_view" />
+        <activity
+            android:name="lmc.lonely.base.BviewPager"
+            android:label="@string/myview_viewPager" />
+        <activity
+            android:name="lmc.lonely.base.BToggle"
+            android:label="@string/myview_toggle" />
+        <activity
+            android:name="lmc.lonely.base.BRollTextView"
+            android:label="@string/myview_rollTextView" />
+        <activity
+            android:name="lmc.lonely.base.BZHView"
+            android:label="@string/myview_zuheview" />
+        <activity
+            android:name="lmc.lonely.lay.LayAbs"
+            android:label="@string/lay_abs" />
+        <activity
+            android:name="lmc.lonely.lay.LayComx"
+            android:label="@string/lay_comx" />
+        <activity
+            android:name="lmc.lonely.lay.LayFrame1"
+            android:label="@string/lay_frame" />
+        <activity
+            android:name="lmc.lonely.lay.LayFrame2"
+            android:label="@string/lay_frame" />
+        <activity
+            android:name="lmc.lonely.lay.LayLine1"
+            android:label="@string/lay_line" />
+        <activity
+            android:name="lmc.lonely.lay.LayLine2"
+            android:label="@string/lay_line" />
+        <activity
+            android:name="lmc.lonely.lay.LayRelat1"
+            android:label="@string/lay_relat" />
+        <activity
+            android:name="lmc.lonely.lay.LayRelat2"
+            android:label="@string/lay_relat" />
+        <activity
+            android:name="lmc.lonely.lay.LayTab1"
+            android:label="@string/lay_tab" />
+        <activity
+            android:name="lmc.lonely.lay.LayTab2"
+            android:label="@string/lay_tab" />
+        <activity
+            android:name="lmc.lonely.file.FApp"
+            android:label="@string/file_fil" />
+        <activity
+            android:name="lmc.lonely.file.FJson"
+            android:label="@string/file_json" />
+        <activity
+            android:name="lmc.lonely.file.FLkFiles"
+            android:label="@string/file_lok" />
+        <activity
+            android:name="lmc.lonely.file.FMp3"
+            android:label="@string/file_mus" />
+        <activity
+            android:name="lmc.lonely.file.FOper"
+            android:label="@string/file_oper" />
+        <activity
+            android:name="lmc.lonely.file.FProp"
+            android:label="@string/file_prop" />
+        <activity
+            android:name="lmc.lonely.file.FRaw"
+            android:label="@string/file_raw" />
+        <activity
+            android:name="lmc.lonely.file.FSd"
+            android:label="@string/file_sd" />
+        <activity
+            android:name="lmc.lonely.file.FShalay"
+            android:label="@string/file_sharelay" />
+        <activity
+            android:name="lmc.lonely.file.FShare"
+            android:label="@string/file_share" />
+        <activity
+            android:name="lmc.lonely.file.FXml"
+            android:label="@string/file_xml" />
+        <activity
+            android:name="lmc.lonely.db.DbParDo"
+            android:label="@string/db_par" />
+        <activity
+            android:name="lmc.lonely.db.DbSqliDo"
+            android:label="@string/db_sqli" />
+        <activity
+            android:name="lmc.lonely.thread.ThAjaxCheck"
+            android:label="@string/thread_ajchk" />
+        <activity
+            android:name="lmc.lonely.thread.ThAjaxDown"
+            android:label="@string/thread_ajax" />
+        <activity
+            android:name="lmc.lonely.thread.ThBall"
+            android:label="@string/thread_ball" />
+        <activity
+            android:name="lmc.lonely.thread.ThDMain"
+            android:label="@string/thread_data" />
+        <activity
+            android:name="lmc.lonely.thread.ThDSon"
+            android:label="@string/thread_data" />
+        <activity
+            android:name="lmc.lonely.thread.ThFjxc"
+            android:label="@string/thread_fjxc" />
+        <activity
+            android:name="lmc.lonely.thread.ThJumpMain"
+            android:label="@string/thread_jump" />
+        <activity
+            android:name="lmc.lonely.thread.ThJumpSonO"
+            android:label="@string/thread_jump" />
+        <activity
+            android:name="lmc.lonely.thread.ThJumpSonT"
+            android:label="@string/thread_jump"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity
+            android:name="lmc.lonely.thread.ThMgr"
+            android:label="@string/thread_mgr" />
+        <activity
+            android:name="lmc.lonely.thread.ThNhd"
+            android:label="@string/thread_nhd" />
+        <activity
+            android:name="lmc.lonely.sys.SysApk"
+            android:label="@string/sys_apk" />
+        <activity
+            android:name="lmc.lonely.sys.SysBdc"
+            android:label="@string/sys_bdcast" />
+        <activity
+            android:name="lmc.lonely.sys.SysChgbg"
+            android:label="@string/sys_chgbg" />
+        <activity
+            android:name="lmc.lonely.sys.SysHsqp"
+            android:configChanges="orientation|keyboard"
+            android:label="@string/sys_hsqp"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="lmc.lonely.sys.SysServ"
+            android:label="@string/sys_serv" />
+        <activity
+            android:name="lmc.lonely.sys.SysXtcxMain"
+            android:label="@string/sys_xtcx" />
+        <activity
+            android:name="lmc.lonely.sys.SysXtcxSon"
+            android:exported="false"
+            android:label="@string/sys_xtcx" >
+            <intent-filter>
+                <action android:name="android.intent.action.GET_CONTENT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.OPENABLE" />
+
+                <data android:mimeType="image/jpeg" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="lmc.lonely.http.HttpApacheImpl"
+            android:label="@string/http_apache" />
+        <activity
+            android:name="lmc.lonely.http.HttpImgImpl"
+            android:label="@string/http_updown" />
+        <activity
+            android:name="lmc.lonely.http.HttpNetImpl"
+            android:label="@string/http_net" />
+    </application>
+
+</manifest>

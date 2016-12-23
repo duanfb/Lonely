@@ -1,0 +1,769 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:2:1-396:12
+	package
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:3:5-25
+		INJECTED from E:\GithubDemo\Lonely\app\AndroidManifest.xml
+		INJECTED from E:\GithubDemo\Lonely\app\AndroidManifest.xml
+	android:versionName
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:6:5-30
+		INJECTED from E:\GithubDemo\Lonely\app\AndroidManifest.xml
+		INJECTED from E:\GithubDemo\Lonely\app\AndroidManifest.xml
+	android:versionCode
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:5:5-28
+		INJECTED from E:\GithubDemo\Lonely\app\AndroidManifest.xml
+		INJECTED from E:\GithubDemo\Lonely\app\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:2:11-69
+	android:installLocation
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:4:5-35
+uses-sdk
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:8:5-10:38
+MERGED from [com.android.support:multidex:1.0.1] E:\GithubDemo\Lonely\app\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\AndroidManifest.xml:18:5-42
+	android:maxSdkVersion
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:9:9-35
+	android:targetSdkVersion
+		INJECTED from E:\GithubDemo\Lonely\app\AndroidManifest.xml
+		INJECTED from E:\GithubDemo\Lonely\app\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:10:9-35
+		INJECTED from E:\GithubDemo\Lonely\app\AndroidManifest.xml
+		INJECTED from E:\GithubDemo\Lonely\app\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:12:5-67
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:12:22-64
+uses-permission#android.permission.VIBRATE
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:14:5-66
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:14:22-63
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:16:5-81
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:16:22-78
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:17:5-84
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:17:22-81
+uses-permission#android.permission.SET_WALLPAPER
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:19:5-72
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:19:22-69
+uses-permission#android.permission.CHANGE_CONFIGURATION
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:21:5-79
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:21:22-76
+uses-permission#android.permission.CALL_PHONE
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:23:5-69
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:23:22-66
+uses-permission#android.permission.INSTALL_PACKAGES
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:25:5-75
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:25:22-72
+uses-permission#android.permission.DELETE_PACKAGES
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:26:5-74
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:26:22-71
+uses-permission#android.permission.CLEAR_APP_CACHE
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:28:5-74
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:28:22-71
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:29:5-75
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:29:22-72
+uses-permission#android.permission.CLEAR_APP_USER_DATA
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:30:5-78
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:30:22-75
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:32:5-78
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:32:22-76
+application
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:34:5-394:19
+	android:label
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:37:9-41
+	android:icon
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:36:9-42
+	android:theme
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:38:9-40
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:35:9-31
+activity#lmc.lonely.Wel
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:39:9-47:20
+	android:label
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:41:13-45
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:40:13-32
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:42:13-46:29
+action#android.intent.action.MAIN
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:43:17-69
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:43:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:45:17-77
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:45:27-74
+activity#lmc.lonely.Main
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:48:9-50:48
+	android:label
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:50:13-45
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:49:13-33
+activity#lmc.lonely.Help
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:51:9-53:50
+	android:label
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:53:13-47
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:52:13-33
+receiver#lmc.lonely.base.BWidget1
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:55:9-63:20
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:55:19-48
+intent-filter#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:56:13-58:29
+action#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:57:17-84
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:57:25-81
+meta-data#android.appwidget.provider
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:60:13-62:53
+	android:resource
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:62:17-50
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:61:17-58
+receiver#lmc.lonely.base.BWidget2
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:64:9-75:20
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:64:19-48
+intent-filter#lmc.lonely.base.WIDGET_UPDATE
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:68:13-70:29
+action#lmc.lonely.base.WIDGET_UPDATE
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:69:17-72
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:69:25-69
+receiver#lmc.lonely.sys.SysBdcRcver
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:76:9-80:20
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:76:19-50
+intent-filter#android.intent.action.EDIT
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:77:13-79:29
+action#android.intent.action.EDIT
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:78:17-69
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:78:25-66
+service#lmc.lonely.sys.SysServMgr
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:82:9-83:19
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:82:18-48
+service#lmc.lonely.service.GpsService
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:84:9-85:19
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:84:18-52
+activity#lmc.lonely.base.BAnimation0
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:87:9-89:54
+	android:label
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:89:13-51
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:88:13-45
+activity#lmc.lonely.base.BAnimation1
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:90:9-92:54
+	android:label
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:92:13-51
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:91:13-45
+activity#lmc.lonely.base.BAnimation2
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:93:9-95:54
+	android:label
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:95:13-51
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:94:13-45
+activity#lmc.lonely.base.BAnimation3
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:96:9-98:54
+	android:label
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:98:13-51
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:97:13-45
+activity#lmc.lonely.base.BAnimation4
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:99:9-101:54
+	android:label
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:101:13-51
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:100:13-45
+activity#lmc.lonely.base.BAnimation5
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:102:9-104:54
+	android:label
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:104:13-51
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:103:13-45
+activity#lmc.lonely.base.BAnimation5List
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:105:9-107:54
+	android:label
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:107:13-51
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:106:13-49
+activity#lmc.lonely.base.BButton
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:108:9-110:51
+	android:label
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:110:13-48
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:109:13-41
+activity#lmc.lonely.base.BCheckBox1
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:111:9-113:53
+	android:label
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:113:13-50
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:112:13-44
+activity#lmc.lonely.base.BCheckBox2
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:114:9-116:53
+	android:label
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:116:13-50
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:115:13-44
+activity#lmc.lonely.base.BClock1
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:117:9-119:50
+	android:label
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:119:13-47
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:118:13-41
+activity#lmc.lonely.base.BClock2
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:120:9-122:50
+	android:label
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:122:13-47
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:121:13-41
+activity#lmc.lonely.base.BClockPlease
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:123:9-126:58
+	android:label
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:125:13-47
+	android:theme
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:126:13-55
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:124:13-46
+activity#lmc.lonely.base.BColor
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:127:9-129:50
+	android:label
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:129:13-47
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:128:13-40
+activity#lmc.lonely.base.BDialog
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:130:9-132:51
+	android:label
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:132:13-48
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:131:13-41
+activity#lmc.lonely.base.BEditText
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:133:9-135:53
+	android:label
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:135:13-50
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:134:13-43
+activity#lmc.lonely.base.BGalley0
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:136:9-138:51
+	android:label
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:138:13-48
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:137:13-42
+activity#lmc.lonely.base.BGalley1
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:139:9-141:51
+	android:label
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:141:13-48
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:140:13-42
+activity#lmc.lonely.base.BGalley2
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:142:9-144:51
+	android:label
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:144:13-48
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:143:13-42
+activity#lmc.lonely.base.BGalley3
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:145:9-147:51
+	android:label
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:147:13-48
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:146:13-42
+activity#lmc.lonely.base.BGalley4
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:148:9-150:51
+	android:label
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:150:13-48
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:149:13-42
+activity#lmc.lonely.base.BGalley5
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:151:9-153:51
+	android:label
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:153:13-48
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:152:13-42
+activity#lmc.lonely.base.BGalley6
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:154:9-156:51
+	android:label
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:156:13-48
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:155:13-42
+activity#lmc.lonely.base.BGalley7
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:157:9-159:51
+	android:label
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:159:13-48
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:158:13-42
+activity#lmc.lonely.base.BGalley8
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:160:9-162:51
+	android:label
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:162:13-48
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:161:13-42
+activity#lmc.lonely.base.BListView0
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:163:9-165:53
+	android:label
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:165:13-50
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:164:13-44
+activity#lmc.lonely.base.BListView1
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:166:9-168:53
+	android:label
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:168:13-50
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:167:13-44
+activity#lmc.lonely.base.BListView2
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:169:9-171:53
+	android:label
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:171:13-50
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:170:13-44
+activity#lmc.lonely.base.BListView3
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:172:9-174:53
+	android:label
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:174:13-50
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:173:13-44
+activity#lmc.lonely.base.BListView4
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:175:9-177:53
+	android:label
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:177:13-50
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:176:13-44
+activity#lmc.lonely.base.BListView5
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:178:9-180:53
+	android:label
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:180:13-50
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:179:13-44
+activity#lmc.lonely.base.BListView6
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:181:9-183:53
+	android:label
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:183:13-50
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:182:13-44
+activity#lmc.lonely.base.BListView7
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:184:9-186:53
+	android:label
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:186:13-50
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:185:13-44
+activity#lmc.lonely.base.BMenu1
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:187:9-189:49
+	android:label
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:189:13-46
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:188:13-40
+activity#lmc.lonely.base.BMenu2
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:190:9-192:49
+	android:label
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:192:13-46
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:191:13-40
+activity#lmc.lonely.base.BMenu3
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:193:9-195:49
+	android:label
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:195:13-46
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:194:13-40
+activity#lmc.lonely.base.BPopup
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:196:9-198:50
+	android:label
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:198:13-47
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:197:13-40
+activity#lmc.lonely.base.BRadioButton
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:199:9-201:50
+	android:label
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:201:13-47
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:200:13-46
+activity#lmc.lonely.base.BSeekBar
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:202:9-204:52
+	android:label
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:204:13-49
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:203:13-42
+activity#lmc.lonely.base.BSpinner
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:205:9-207:52
+	android:label
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:207:13-49
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:206:13-42
+activity#lmc.lonely.base.BTabHost0
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:208:9-210:52
+	android:label
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:210:13-49
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:209:13-43
+activity#lmc.lonely.base.BTabHost1
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:211:9-213:52
+	android:label
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:213:13-49
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:212:13-43
+activity#lmc.lonely.base.BTabHost2
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:214:9-216:52
+	android:label
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:216:13-49
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:215:13-43
+activity#lmc.lonely.base.BTabHost3
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:217:9-219:52
+	android:label
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:219:13-49
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:218:13-43
+activity#lmc.lonely.base.BTextView
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:220:9-222:53
+	android:label
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:222:13-50
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:221:13-43
+activity#lmc.lonely.base.BTouch
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:223:9-225:50
+	android:label
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:225:13-47
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:224:13-40
+activity#lmc.lonely.base.BGridView
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:226:9-228:53
+	android:label
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:228:13-50
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:227:13-43
+activity#lmc.lonely.base.BView
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:231:9-233:49
+	android:label
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:233:13-46
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:232:13-39
+activity#lmc.lonely.base.BviewPager
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:234:9-236:56
+	android:label
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:236:13-53
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:235:13-44
+activity#lmc.lonely.base.BToggle
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:237:9-239:53
+	android:label
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:239:13-50
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:238:13-41
+activity#lmc.lonely.base.BRollTextView
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:240:9-242:59
+	android:label
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:242:13-56
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:241:13-47
+activity#lmc.lonely.base.BZHView
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:243:9-245:55
+	android:label
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:245:13-52
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:244:13-41
+activity#lmc.lonely.lay.LayAbs
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:249:9-251:47
+	android:label
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:251:13-44
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:250:13-39
+activity#lmc.lonely.lay.LayComx
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:252:9-254:48
+	android:label
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:254:13-45
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:253:13-40
+activity#lmc.lonely.lay.LayFrame1
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:255:9-257:49
+	android:label
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:257:13-46
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:256:13-42
+activity#lmc.lonely.lay.LayFrame2
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:258:9-260:49
+	android:label
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:260:13-46
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:259:13-42
+activity#lmc.lonely.lay.LayLine1
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:261:9-263:48
+	android:label
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:263:13-45
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:262:13-41
+activity#lmc.lonely.lay.LayLine2
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:264:9-266:48
+	android:label
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:266:13-45
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:265:13-41
+activity#lmc.lonely.lay.LayRelat1
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:267:9-269:49
+	android:label
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:269:13-46
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:268:13-42
+activity#lmc.lonely.lay.LayRelat2
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:270:9-272:49
+	android:label
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:272:13-46
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:271:13-42
+activity#lmc.lonely.lay.LayTab1
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:273:9-275:47
+	android:label
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:275:13-44
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:274:13-40
+activity#lmc.lonely.lay.LayTab2
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:276:9-278:47
+	android:label
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:278:13-44
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:277:13-40
+activity#lmc.lonely.file.FApp
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:279:9-281:48
+	android:label
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:281:13-45
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:280:13-38
+activity#lmc.lonely.file.FJson
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:282:9-284:49
+	android:label
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:284:13-46
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:283:13-39
+activity#lmc.lonely.file.FLkFiles
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:285:9-287:48
+	android:label
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:287:13-45
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:286:13-42
+activity#lmc.lonely.file.FMp3
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:288:9-290:48
+	android:label
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:290:13-45
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:289:13-38
+activity#lmc.lonely.file.FOper
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:291:9-293:49
+	android:label
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:293:13-46
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:292:13-39
+activity#lmc.lonely.file.FProp
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:294:9-296:49
+	android:label
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:296:13-46
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:295:13-39
+activity#lmc.lonely.file.FRaw
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:297:9-299:48
+	android:label
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:299:13-45
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:298:13-38
+activity#lmc.lonely.file.FSd
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:300:9-302:47
+	android:label
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:302:13-44
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:301:13-37
+activity#lmc.lonely.file.FShalay
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:303:9-305:53
+	android:label
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:305:13-50
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:304:13-41
+activity#lmc.lonely.file.FShare
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:306:9-308:50
+	android:label
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:308:13-47
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:307:13-40
+activity#lmc.lonely.file.FXml
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:309:9-311:48
+	android:label
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:311:13-45
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:310:13-38
+activity#lmc.lonely.db.DbParDo
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:312:9-314:46
+	android:label
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:314:13-43
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:313:13-39
+activity#lmc.lonely.db.DbSqliDo
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:315:9-317:47
+	android:label
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:317:13-44
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:316:13-40
+activity#lmc.lonely.thread.ThAjaxCheck
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:318:9-320:52
+	android:label
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:320:13-49
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:319:13-47
+activity#lmc.lonely.thread.ThAjaxDown
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:321:9-323:51
+	android:label
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:323:13-48
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:322:13-46
+activity#lmc.lonely.thread.ThBall
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:324:9-326:51
+	android:label
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:326:13-48
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:325:13-42
+activity#lmc.lonely.thread.ThDMain
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:327:9-329:51
+	android:label
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:329:13-48
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:328:13-43
+activity#lmc.lonely.thread.ThDSon
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:330:9-332:51
+	android:label
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:332:13-48
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:331:13-42
+activity#lmc.lonely.thread.ThFjxc
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:333:9-335:51
+	android:label
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:335:13-48
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:334:13-42
+activity#lmc.lonely.thread.ThJumpMain
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:336:9-338:51
+	android:label
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:338:13-48
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:337:13-46
+activity#lmc.lonely.thread.ThJumpSonO
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:339:9-341:51
+	android:label
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:341:13-48
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:340:13-46
+activity#lmc.lonely.thread.ThJumpSonT
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:342:9-345:59
+	android:label
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:344:13-48
+	android:theme
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:345:13-56
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:343:13-46
+activity#lmc.lonely.thread.ThMgr
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:346:9-348:50
+	android:label
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:348:13-47
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:347:13-41
+activity#lmc.lonely.thread.ThNhd
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:349:9-351:50
+	android:label
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:351:13-47
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:350:13-41
+activity#lmc.lonely.sys.SysApk
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:352:9-354:47
+	android:label
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:354:13-44
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:353:13-39
+activity#lmc.lonely.sys.SysBdc
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:355:9-357:50
+	android:label
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:357:13-47
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:356:13-39
+activity#lmc.lonely.sys.SysChgbg
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:358:9-360:49
+	android:label
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:360:13-46
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:359:13-41
+activity#lmc.lonely.sys.SysHsqp
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:361:9-365:52
+	android:screenOrientation
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:365:13-49
+	android:label
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:364:13-45
+	android:configChanges
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:363:13-57
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:362:13-40
+activity#lmc.lonely.sys.SysServ
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:366:9-368:48
+	android:label
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:368:13-45
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:367:13-40
+activity#lmc.lonely.sys.SysXtcxMain
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:369:9-371:48
+	android:label
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:371:13-45
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:370:13-44
+activity#lmc.lonely.sys.SysXtcxSon
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:372:9-384:20
+	android:label
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:375:13-45
+	android:exported
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:374:13-37
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:373:13-43
+intent-filter#android.intent.action.GET_CONTENT+android.intent.category.DEFAULT+android.intent.category.OPENABLE
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:376:13-383:29
+action#android.intent.action.GET_CONTENT
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:377:17-76
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:377:25-73
+category#android.intent.category.DEFAULT
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:379:17-76
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:379:27-73
+category#android.intent.category.OPENABLE
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:380:17-77
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:380:27-74
+data
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:382:17-55
+	android:mimeType
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:382:23-52
+activity#lmc.lonely.http.HttpApacheImpl
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:385:9-387:51
+	android:label
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:387:13-48
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:386:13-48
+activity#lmc.lonely.http.HttpImgImpl
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:388:9-390:51
+	android:label
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:390:13-48
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:389:13-45
+activity#lmc.lonely.http.HttpNetImpl
+ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:391:9-393:48
+	android:label
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:393:13-45
+	android:name
+		ADDED from E:\GithubDemo\Lonely\app\AndroidManifest.xml:392:13-45

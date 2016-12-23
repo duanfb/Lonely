@@ -1,0 +1,94 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion "24.0.1"
+
+    defaultConfig {
+        applicationId "com.jmi.android.jiemi" //应用包名
+        minSdkVersion 14 //支持最小的sdk版本
+        targetSdkVersion 21 //目标sdk版本
+        versionCode 282 //代码版本号
+        versionName "2.8.2" //版本名称
+        multiDexEnabled true
+    }
+
+    aaptOptions {
+        cruncherEnabled = false
+    }
+
+    dexOptions {
+        javaMaxHeapSize "4g"
+    }
+
+    lintOptions {
+        abortOnError false //编译时屏蔽掉lint检查，可以避免由于编译条件太过严格而编译不过的问题：
+        checkReleaseBuilds false
+    }
+
+    sourceSets {
+        main {
+            manifest.srcFile 'AndroidManifest.xml'
+            java.srcDirs = ['src']
+            resources.srcDirs = ['src']
+            aidl.srcDirs = ['src']
+            renderscript.srcDirs = ['src']
+            res.srcDirs = ['res']
+            assets.srcDirs = ['assets']
+            jniLibs.srcDirs = ['libs']
+        }
+
+        // Move the tests to tests/java, tests/res, etc...
+        instrumentTest.setRoot('tests')
+
+        // Move the build types to build-types/<type>
+        // For instance, build-types/debug/java, build-types/debug/AndroidManifest.xml, ...
+        // This moves them out of them default location under src/<type>/... which would
+        // conflict with src/ being used by the main source set.
+        // Adding new build types or product flavors should be accompanied
+        // by a similar customization.
+        debug.setRoot('build-types/debug')
+        release.setRoot('build-types/release')
+    }
+
+    signingConfigs {
+        debug {
+            storeFile file("${System.properties['user.home']}/.android/debug.keystore")
+        }
+
+        release { //release版本签名信息
+            keyAlias 'XXX' //别名
+            keyPassword 'XXX' //签名密码
+            storeFile file('XXX')
+            storePassword 'XXX' //签名文件的密码
+        }
+    }
+
+    buildTypes {
+        debug {
+            buildConfigField "boolean", "LOG_DEBUG", "true" //debug开关
+            minifyEnabled false //是否进行混淆
+            //混淆文件的位置
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.debug //引用上面声明的devDebug签名信息
+            zipAlignEnabled true
+            shrinkResources false
+        }
+
+        release {
+            buildConfigField "boolean", "LOG_DEBUG", "false"
+            minifyEnabled false //是否进行混淆
+            //混淆文件的位置
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release //引用上面声明的release签名信息
+            zipAlignEnabled true//Zipalign优化
+            shrinkResources false // 移除无用的resource文件
+        }
+    }
+
+
+
+    dependencies {
+        compile fileTree(dir: 'libs', include: '*.jar')
+    }
+}

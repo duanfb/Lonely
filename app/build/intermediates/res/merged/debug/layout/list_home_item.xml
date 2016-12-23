@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:background="@drawable/home_item_selector"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:src="@drawable/app"
+        android:id="@+id/iv_home_icon_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    
+    <TextView
+        android:text="程序管理"
+        android:id="@+id/tv_home_name_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>

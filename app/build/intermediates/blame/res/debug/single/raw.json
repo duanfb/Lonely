@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\raw\\readme.txt",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\raw\\readme.txt"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\raw\\lmc.txt",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\raw\\lmc.txt"
+    },
+    {
+        "merged": "E:\\GithubDemo\\Lonely\\app\\build\\intermediates\\res\\merged\\debug\\raw\\person.xml",
+        "source": "E:\\GithubDemo\\Lonely\\app\\res\\raw\\person.xml"
+    }
+]
